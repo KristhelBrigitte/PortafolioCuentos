@@ -1,0 +1,71 @@
+*{
+   box-sizing: border-box;
+   padding:0;
+   margin:0;
+}
+
+.info p{
+   font-family:'Times New Roman', Times, serif;
+   text-indent: 40px;
+   line-height :30px;
+   font-size: 1.3rem;
+   text-align: start;
+   margin-top:25px ;
+
+}
+img{
+   width: 100%;
+}
+body{
+   background-image: url(fondo4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:fixed;
+}
+
+main{
+   margin: 1px 0px 0px 0px;
+   text-align: center;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.582);
+   color:white;
+   padding:10px;
+   border-radius: 15px;
+}
+
+.h1{
+   width:calc(100% - 80px);
+   margin:0;
+  font-weight:10;
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+.container{
+   max-width: 1700px;
+   
+   margin:auto;
+   text-align: center;
+}
+
+header{
+   color: rgb(124, 64, 64);
+   padding: 5px;
+   top:5px;
+   width:100%;
+   background-color:rgba(246, 178, 178, 0.733);
+}
+
+.h2{
+   font-size: 1.2rem;
+}
+
+.inicio{
+   display: flex;
+   justify-content: space-between;
+}
+.logo{
+   width: 80px;
+   height: 80px;
+  
+}
